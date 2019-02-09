@@ -3,7 +3,7 @@
   "footer" : "You can get more help at https://tipit.io/how-it-works\r\n\r\n==========================================\r\n",
   "commands" : {
       ".tip" : {
-        "tip @user 1 TOKEN" : "Will send 1 TOKEN to @user. Alternatively .send can be used."
+        ".tip @user 1 TOKEN" : "Will send 1 TOKEN to @user. Alternatively .send can be used."
       },
       ".deposit"  : {
         ".deposit" : "Messages user a link that will auto-deposit 1 TOKEN into your tipit account.",
