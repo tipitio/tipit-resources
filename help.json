@@ -16,7 +16,7 @@
         ".name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
       },
       ".help" : {
-        ".help" : "Bot responds with Tipit commands and usage instructions."
+        ".help" : "Bot responds with the Tipit commands and usage instructions."
       }
   }
 }
