@@ -7,8 +7,8 @@
         ".tip @user 1 TOKEN" : "Will send 1 TOKEN to @user. Alternatively .send can be used."
       },
       ".deposit"  : {
-        ".deposit" : "Messages user a link that will auto-deposit 1 TOKEN into your tipit account.",
-        ".deposit 1 TOKEN" : "Messages user a link that will auto-deposit 1 TOKEN into your tipit account."
+        ".deposit" : "Messages user a link where they can deposit tokens into their tipit account.",
+        ".deposit 1 TOKEN" : "Messages user a link that will auto-deposit 1 TOKEN into their tipit account."
       },
       ".bal" : {
         ".bal" : "Messages user their token balances."
