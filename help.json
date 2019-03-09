@@ -18,6 +18,9 @@
       },
       ".help" : {
         ".help" : "Bot responds with the Tipit commands and usage instructions."
+      },
+      ".trivia" : {
+        ".trivia" : "Start a trivia game and potentially win some tokens!"
       }
   }
 }
