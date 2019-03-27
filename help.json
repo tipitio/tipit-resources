@@ -1,6 +1,6 @@
 {
   "version" : "1.0.0",
-  "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.\r\n------------------------------------------\r\n",
+  "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
       ".tip" : {
@@ -19,8 +19,8 @@
       ".help" : {
         ".help" : "Bot responds with the Tipit commands and usage instructions."
       },
-      ".trivia" : {
-        ".trivia" : "Start a trivia game and potentially win some tokens!"
+      ".pull" : {
+        ".pull EOSaccount # token memo" : "Withdraws any number # of any token to an EOSaccount.  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account to be careful and make sure your account name is correct."
       }
   }
 }
