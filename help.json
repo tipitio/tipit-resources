@@ -28,5 +28,26 @@
         ".tip 1 TOKEN" : "Will send 1 TOKEN to the user you are replying to.",
         ".tip @username 1 TOKEN" : "Will send 1 TOKEN to the @username specified. NOTE: This will only work if the user has set their Telegram username."
       }
+  },
+  "twitter-commands" : {
+      ".tip" : {
+        "@tipitbot .tip 1 TOKEN" : "Sending a tip via Twitter must be done via tweeting a reply to a tweet.  This will send 1 Token to whomever is being replied to (supports multiple)."
+      },
+      ".deposit"  : {
+        ".deposit" : "Command must be sent as a direct message to @tipitbot. Messages user a link where they can deposit tokens into their tipit account.",
+        ".deposit 1 TOKEN" : "Command must be sent as a direct message to @tipitbot. Messages user a link that will auto-deposit 1 TOKEN into their tipit account."
+      },
+      ".bal" : {
+        ".bal" : "Command must be sent as a direct message to @tipitbot. Messages user their token balances."
+      },
+      ".name" : {
+        ".name valideosname" : "Command must be sent as a direct message to @tipitbot. Checks the blockchain to see if the name 'valideosname' is available."
+      },
+      ".help" : {
+        ".help" : "Command must be sent as a direct message to @tipitbot. Bot responds with the Tipit commands and usage instructions."
+      },
+      ".pull" : {
+        ".pull EOSaccount # token memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an EOSaccount.  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+      }
   }
 }
