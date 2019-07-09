@@ -32,6 +32,7 @@
   "twitter-commands" : {
       ".tip" : {
         "@tipitbot .tip 1 TOKEN" : "Sending a tip via Twitter must be done via tweeting a reply to a tweet.  This will send 1 Token to whomever is being replied to (supports multiple)."
+        "@tipitbot +1 TOKEN" : "Sending a tip via Twitter must be done via tweeting a reply to a tweet.  This will send 1 Token to whomever is being replied to (supports multiple)."
       },
       ".deposit"  : {
         ".deposit" : "Command must be sent as a direct message to @tipitbot. Messages user a link where they can deposit tokens into their tipit account.",
