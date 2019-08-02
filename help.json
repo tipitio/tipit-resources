@@ -20,7 +20,7 @@
         ".help" : "Bot responds with the Tipit commands and usage instructions."
       },
       ".pull" : {
-        ".pull EOSaccount # token memo" : "Withdraws any number # of any token to an EOSaccount.  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+        ".pull EOSaccount 1 TOKEN memo" : "Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
       }
   },
   "telegram-commands" : {
@@ -48,7 +48,7 @@
         ".help" : "Command must be sent as a direct message to @tipitbot. Bot responds with the Tipit commands and usage instructions."
       },
       ".pull" : {
-        ".pull EOSaccount # token memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an EOSaccount.  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+        ".pull EOSaccount 1 TOKEN memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
       }
   }
 }
