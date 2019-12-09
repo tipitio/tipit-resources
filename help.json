@@ -1,5 +1,5 @@
 {
-  "version" : "1.0.7",
+  "version" : "1.0.8",
   "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
@@ -49,6 +49,26 @@
       },
       ".pull" : {
         ".pull EOSaccount 1 TOKEN memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+      }
+  },
+  "twitch-commands" : {
+      "!tip" : {
+        "!tip @user 1 TOKEN" : "Will send 1 TOKEN to @user. Alternatively .send can be used."
+      },
+      "!deposit"  : {
+        "!deposit" : "Responds with the location to deposit into your account."
+      },
+      "!bal" : {
+        "!bal" : "Responds with the location to check your balance."
+      },
+      "!name" : {
+        "!name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
+      },
+      "!help" : {
+        "!help" : "Responds with the location of Twitch help."
+      },
+      "!pull" : {
+        "!pull EOSaccount 1 TOKEN memo" : "Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
       }
   }
 }
