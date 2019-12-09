@@ -52,22 +52,22 @@
       }
   },
   "twitch-commands" : {
-      "!tip" : {
+      ".tip" : {
         "!tip @user 1 TOKEN" : "Will send 1 TOKEN to @user. Alternatively .send can be used."
       },
-      "!deposit"  : {
+      ".deposit"  : {
         "!deposit" : "Responds with the location to deposit into your account."
       },
-      "!bal" : {
+      ".bal" : {
         "!bal" : "Responds with the location to check your balance."
       },
-      "!name" : {
+      ".name" : {
         "!name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
       },
-      "!help" : {
+      ".help" : {
         "!help" : "Responds with the location of Twitch help."
       },
-      "!pull" : {
+      ".pull" : {
         "!pull EOSaccount 1 TOKEN memo" : "Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
       }
   }
