@@ -1,5 +1,5 @@
 {
-  "version" : "1.0.8",
+  "version" : "1.0.9",
   "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
