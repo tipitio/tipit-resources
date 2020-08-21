@@ -1,56 +1,56 @@
 {
   "version" : "1.0.0",
-  "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
+  "header" : "==========================================\r\nGu√≠a de uso general\r\n------------------------------------------\r\nTipit es Software en versi√≥n Beta: En ning√∫n caso tipit o sus autores ser√°n responsables por fondos perdidos, mal dirigidos o robados.  tipit es completamente TRANSPARENTE y NO PRIVADO, todas las transacciones est√°n en la cadena de bloques EOS con una visualizaci√≥n completa incluyendo su memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
       ".enviar" : {
-        ".enviar @user 1 TOKEN" : "Enviar· 1 TOKEN a @user. Alternativamente, se puede usar .enviar."
+        ".enviar @user 1 TOKEN" : "Enviar√° 1 TOKEN a @user. Alternativamente, se puede usar .enviar."
       },
       ".depositar"  : {
         ".depositar" : "Mensajes de usuario un enlace donde pueden depositar tokens en su cuenta tipit.",
-        ".depositar 1 TOKEN" : "Mensajes de usuario un enlace que auto-depositar· 1 TOKEN en su cuenta de tipit."
+        ".depositar 1 TOKEN" : "Mensajes de usuario un enlace que auto-depositar√° 1 TOKEN en su cuenta de tipit."
       },
       ".equilibrar" : {
         ".equilibrar" : "Los mensajes muestran tus saldos de token."
       },
       ".nombre" : {
-        ".nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' est· disponible."
+        ".nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' est√° disponible."
       },
       ".ayuda" : {
         ".ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
       },
       ".retirar" : {
-        ".retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmaciÛn, verifique los datos y seleccione sÌ.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, asÌ que ten cuidado y aseg˙rate de que el nombre de tu cuenta sea correcta."
+        ".retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmaci√≥n, verifique los datos y seleccione s√≠.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, as√≠ que ten cuidado y aseg√∫rate de que el nombre de tu cuenta sea correcta."
       }
   },
   "telegram-commands" : {
       ".nombre" : {
-        ".nombre 1 TOKEN" : "Enviar· 1 TOKEN al usuario al que est· respondiendo.",
-        ".nombre @username 1 TOKEN" : "Enviar· 1 TOKEN al @nombredeusuario que usted haya escogido. NOTA: Esto sÛlo funcionar· si el usuario ha configurado su nombre de usuario Telegram."
+        ".nombre 1 TOKEN" : "Enviar√° 1 TOKEN al usuario al que est√° respondiendo.",
+        ".nombre @username 1 TOKEN" : "Enviar√° 1 TOKEN al @nombredeusuario que usted haya escogido. NOTA: Esto s√≥lo funcionar√° si el usuario ha configurado su nombre de usuario Telegram."
       }
   },
   "twitter-commands" : {
       ".enviar" : {
-        "@tipitbot .enviar 1 TOKEN" : "El envÌo de un consejo a travÈs de Twitter debe hacerse a travÈs de un tweet de respuesta a un tweet.  Esto enviar· 1 Token a quienquiera que estÈ siendo contestado. 
-(soporta m˙ltiples).",
-        "@tipitbot +1 TOKEN" : "El envÌo de tip vÌa Twitter debe ser hecho a travÈs de tweet como respuesta a un tweet.  Esto enviar· 1 Token a quienquiera que estÈ siendo contestado. 
-(soporta m˙ltiples)."
+        "@tipitbot .enviar 1 TOKEN" : "El env√≠o de un consejo a trav√©s de Twitter debe hacerse a trav√©s de un tweet de respuesta a un tweet.  Esto enviar√° 1 Token a quienquiera que est√© siendo contestado. 
+(soporta m√∫ltiples).",
+        "@tipitbot +1 TOKEN" : "El env√≠o de tip v√≠a Twitter debe ser hecho a trav√©s de tweet como respuesta a un tweet.  Esto enviar√° 1 Token a quienquiera que est√© siendo contestado. 
+(soporta m√∫ltiples)."
       },
       ".depositar"  : {
         ".deposit" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace donde pueden depositar tokens en tu cuenta tipit.",
-        ".deposit 1 TOKEN" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace que auto-depositar· 1 TOKEN en tu cuenta de tipit."
+        ".deposit 1 TOKEN" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace que auto-depositar√° 1 TOKEN en tu cuenta de tipit."
       },
       ".equilibrar" : {
-        ".bal" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrar·n tus saldos de token."
+        ".bal" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrar√°n tus saldos de token."
       },
       ".nombre" : {
-        ".nombre cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' est· disponible."
+        ".nombre cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' est√° disponible."
       },
       ".ayadu : {
         ".ayuda" : "El comando debe ser enviado como un mensaje directo a @tipitbot.  Bot responds with the Tipit commands and usage instructions."
       },
       ".retirar" : {
-        ".retirar cuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmaciÛn, verifique los datos y seleccione sÌ.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, asÌ que ten cuidado y aseg˙rate de que el nombre de tu cuenta sea correcta."
+        ".retirar cuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmaci√≥n, verifique los datos y seleccione s√≠.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, as√≠ que ten cuidado y aseg√∫rate de que el nombre de tu cuenta sea correcta."
       }
   }
 }
