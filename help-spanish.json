@@ -44,7 +44,7 @@
       ".nombre" : {
         ".nombre cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
       },
-      ".ayadu : {
+      ".ayadu" : {
         ".ayuda" : "El comando debe ser enviado como un mensaje directo a @tipitbot.  Bot responds with the Tipit commands and usage instructions."
       },
       ".retirar" : {
