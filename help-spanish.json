@@ -31,10 +31,8 @@
   },
   "twitter-commands" : {
       ".enviar" : {
-        "@tipitbot .enviar 1 TOKEN" : "El envío de un consejo a través de Twitter debe hacerse a través de un tweet de respuesta a un tweet.  Esto enviará 1 Token a quienquiera que esté siendo contestado. 
-(soporta múltiples).",
-        "@tipitbot +1 TOKEN" : "El envío de tip vía Twitter debe ser hecho a través de tweet como respuesta a un tweet.  Esto enviará 1 Token a quienquiera que esté siendo contestado. 
-(soporta múltiples)."
+        "@tipitbot .enviar 1 TOKEN" : "El envío de un consejo a través de Twitter debe hacerse a través de un tweet de respuesta a un tweet.  Esto enviará 1 Token a quienquiera que esté siendo contestado. (soporta múltiples).",
+        "@tipitbot +1 TOKEN" : "El envío de tip vía Twitter debe ser hecho a través de tweet como respuesta a un tweet.  Esto enviará 1 Token a quienquiera que esté siendo contestado. (soporta múltiples)."
       },
       ".depositar"  : {
         ".deposit" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace donde pueden depositar tokens en tu cuenta tipit.",
