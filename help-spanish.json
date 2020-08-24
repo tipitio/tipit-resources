@@ -50,5 +50,25 @@
       ".retirar" : {
         ".retirar cuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
       }
+  },
+  "twitch-commands" : {
+      ".enviar" : {
+        "!enviar @user 1 TOKEN" : "Enviará 1 TOKEN a @user."
+      },
+      ".depositar"  : {
+        "!depositar" : "Mensajes de usuario un enlace donde pueden depositar tokens en su cuenta tipit."
+      },
+      ".equilibrar" : {
+        "!equilibrar" : "Los mensajes muestran tus saldos de token."
+      },
+      ".nombre" : {
+         "!nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
+      },
+      ".ayuda" : {
+        "!ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
+      },
+      ".retirar" : {
+        "!retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
+      }
   }
 }
