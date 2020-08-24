@@ -13,8 +13,8 @@
       ".equil" : {
         ".equil" : "Los mensajes muestran tus saldos de token."
       },
-      ".nombre" : {
-        ".nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
+      ".validar" : {
+        ".validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
       },
       ".ayuda" : {
         ".ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
@@ -44,8 +44,8 @@
       ".equil" : {
         ".equil" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrarán tus saldos de token."
       },
-      ".nombre" : {
-        ".nombre cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
+      ".validar" : {
+        ".validar cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
       },
       ".ayadu" : {
         ".ayuda" : "El comando debe ser enviado como un mensaje directo a @tipitbot.  Bot responds with the Tipit commands and usage instructions."
@@ -64,8 +64,8 @@
       ".equil" : {
         "!equil" : "Los mensajes muestran tus saldos de token."
       },
-      ".nombre" : {
-         "!nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
+      ".validar" : {
+         "!validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
       },
       ".ayuda" : {
         "!ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
