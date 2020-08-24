@@ -10,8 +10,8 @@
         ".depositar" : "Mensajes de usuario un enlace donde pueden depositar tokens en su cuenta tipit.",
         ".depositar 1 TOKEN" : "Mensajes de usuario un enlace que auto-depositará 1 TOKEN en su cuenta de tipit."
       },
-      ".equilibrar" : {
-        ".equilibrar" : "Los mensajes muestran tus saldos de token."
+      ".equil" : {
+        ".equil" : "Los mensajes muestran tus saldos de token."
       },
       ".nombre" : {
         ".nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
@@ -41,8 +41,8 @@
         ".deposit" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace donde pueden depositar tokens en tu cuenta tipit.",
         ".deposit 1 TOKEN" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace que auto-depositará 1 TOKEN en tu cuenta de tipit."
       },
-      ".equilibrar" : {
-        ".bal" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrarán tus saldos de token."
+      ".equil" : {
+        ".equil" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrarán tus saldos de token."
       },
       ".nombre" : {
         ".nombre cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
@@ -61,8 +61,8 @@
       ".depositar"  : {
         "!depositar" : "Mensajes de usuario un enlace donde pueden depositar tokens en su cuenta tipit."
       },
-      ".equilibrar" : {
-        "!equilibrar" : "Los mensajes muestran tus saldos de token."
+      ".equil" : {
+        "!equil" : "Los mensajes muestran tus saldos de token."
       },
       ".nombre" : {
          "!nombre cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
