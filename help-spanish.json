@@ -27,9 +27,9 @@
     }
   },
   "telegram-commands" : {
-      ".nombre" : {
-        ".nombre 1 TOKEN" : "Enviará 1 TOKEN al usuario al que está respondiendo.",
-        ".nombre @username 1 TOKEN" : "Enviará 1 TOKEN al @nombredeusuario que usted haya escogido. NOTA: Esto sólo funcionará si el usuario ha configurado su nombre de usuario Telegram."
+      ".enviar" : {
+        ".enviar 1 TOKEN" : "Enviará 1 TOKEN al usuario al que está respondiendo.",
+        ".enviar @username 1 TOKEN" : "Enviará 1 TOKEN al @nombredeusuario que usted haya escogido. NOTA: Esto sólo funcionará si el usuario ha configurado su nombre de usuario Telegram."
       }
   },
   "twitter-commands" : {
