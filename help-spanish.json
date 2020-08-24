@@ -21,7 +21,10 @@
       },
       ".retirar" : {
         ".retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
-      }
+      },
+    ".yo" : {
+      ".yo" : "muestra su página de usuario tipit." 
+    }
   },
   "telegram-commands" : {
       ".nombre" : {
