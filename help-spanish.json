@@ -7,8 +7,7 @@
         ".enviar @user 1 TOKEN" : "Enviará 1 TOKEN a @user. Alternativamente, se puede usar .enviar."
       },
       ".depositar"  : {
-        ".depositar" : "Mensajes de usuario un enlace donde pueden depositar tokens en su cuenta tipit.",
-        ".depositar 1 TOKEN" : "Mensajes de usuario un enlace que auto-depositará 1 TOKEN en su cuenta de tipit."
+        ".depositar" : "Mensajes de usuario un enlace donde pueden depositar tokens en su cuenta tipit."
       },
       ".saldo" : {
         ".saldo" : "Los mensajes muestran tus saldos de token."
@@ -38,8 +37,7 @@
         "@tipitbot +1 TOKEN" : "El envío de tip vía Twitter debe ser hecho a través de tweet como respuesta a un tweet.  Esto enviará 1 Token a quienquiera que esté siendo contestado. (soporta múltiples)."
       },
       ".depositar"  : {
-        ".deposit" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace donde pueden depositar tokens en tu cuenta tipit.",
-        ".deposit 1 TOKEN" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace que auto-depositará 1 TOKEN en tu cuenta de tipit."
+        ".deposit" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Mensajes de usuario un enlace donde pueden depositar tokens en tu cuenta tipit."
       },
       ".saldo" : {
         ".saldo" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrarán tus saldos de token."
