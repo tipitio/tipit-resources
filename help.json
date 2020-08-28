@@ -1,5 +1,5 @@
 {
-  "version" : "1.1.1",
+  "version" : "1.1.2",
   "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
@@ -7,8 +7,7 @@
         ".tip @user 1 TOKEN" : "Will send 1 TOKEN to @user. Alternatively .send can be used."
       },
       ".deposit"  : {
-        ".deposit" : "Messages user a link where they can deposit tokens into their tipit account.",
-        ".deposit 1 TOKEN" : "Messages user a link that will auto-deposit 1 TOKEN into their tipit account."
+        ".deposit" : "Messages user a link where they can deposit tokens into their tipit account."
       },
       ".bal" : {
         ".bal" : "Messages user their token balances."
@@ -35,8 +34,7 @@
         "@tipitbot +1 TOKEN" : "Sending a tip via Twitter must be done via tweeting a reply to a tweet.  This will send 1 Token to whomever is being replied to (supports multiple)."
       },
       ".deposit"  : {
-        ".deposit" : "Command must be sent as a direct message to @tipitbot. Messages user a link where they can deposit tokens into their tipit account.",
-        ".deposit 1 TOKEN" : "Command must be sent as a direct message to @tipitbot. Messages user a link that will auto-deposit 1 TOKEN into their tipit account."
+        ".deposit" : "Command must be sent as a direct message to @tipitbot. Messages user a link where they can deposit tokens into their tipit account."
       },
       ".bal" : {
         ".bal" : "Command must be sent as a direct message to @tipitbot. Messages user their token balances."
