@@ -12,9 +12,6 @@
       ".saldo" : {
         ".saldo" : "Los mensajes muestran tus saldos de token."
       },
-      ".validar" : {
-        ".validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
-      },
       ".ayuda" : {
         ".ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
       },
@@ -42,9 +39,6 @@
       ".saldo" : {
         ".saldo" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Los mensajes mostrarán tus saldos de token."
       },
-      ".validar" : {
-        ".validar cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
-      },
       ".ayadu" : {
         ".ayuda" : "El comando debe ser enviado como un mensaje directo a @tipitbot.  Bot responds with the Tipit commands and usage instructions."
       },
@@ -62,14 +56,23 @@
       ".saldo" : {
         "!saldo" : "Los mensajes muestran tus saldos de token."
       },
-      ".validar" : {
-         "!validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
-      },
+
       ".ayuda" : {
         "!ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
       },
       ".retirar" : {
         "!retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
+      }
+  },
+  "disabled" : {
+      ".validar(Twitch)" : {
+         "!validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
+      },
+      ".validar(Twitter)" : {
+        ".validar cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
+      },
+      ".validar(Discord)" : {
+        ".validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
       }
   }
 }
