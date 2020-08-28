@@ -13,9 +13,6 @@
       ".bal" : {
         ".bal" : "Messages user their token balances."
       },
-      ".name" : {
-        ".name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
-      },
       ".help" : {
         ".help" : "Bot responds with the Tipit commands and usage instructions."
       },
@@ -44,9 +41,6 @@
       ".bal" : {
         ".bal" : "Command must be sent as a direct message to @tipitbot. Messages user their token balances."
       },
-      ".name" : {
-        ".name valideosname" : "Command must be sent as a direct message to @tipitbot. Checks the blockchain to see if the name 'valideosname' is available."
-      },
       ".help" : {
         ".help" : "Command must be sent as a direct message to @tipitbot. Bot responds with the Tipit commands and usage instructions."
       },
@@ -64,9 +58,6 @@
       ".bal" : {
         "!bal" : "Responds with the location to check your balance."
       },
-      ".name" : {
-        "!name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
-      },
       ".help" : {
         "!help" : "Responds with the location of Twitch help."
       },
@@ -75,6 +66,17 @@
       },
       ".me" : {
         "!me" : "Bot responds with your tipit page."
+      }
+  },
+  "disabled" : {
+       ".name(Discord)" : {
+        ".name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
+      }, 
+      ".name(Twitter)" : {
+        ".name valideosname" : "Command must be sent as a direct message to @tipitbot. Checks the blockchain to see if the name 'valideosname' is available."
+      },
+      ".name(Twitch)" : {
+        "!name valideosname" : "Checks the blockchain to see if the name 'valideosname' is available."
       }
   }
 }
