@@ -1,5 +1,5 @@
 {
-  "version" : "1.1.3",
+  "version" : "1.1.4",
   "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
@@ -67,8 +67,13 @@
       }
   },
   "github-commands" : {
-    ".tip @user 1 TOKEN" : "Command must be executed from a Github issue, will tip mentioned user 1 TOKEN.",
-    ".pool 1 TOKEN" : "Will create, or add to an existing bounty/pool reward for the pull request that is linked and merged to solve the issue."
+    ".tip" : {
+      ".tip @user 1 TOKEN" : "Command must be executed from a Github issue, will tip mentioned user 1 TOKEN."
+    },
+    ".pool" : {
+      ".pool 1 TOKEN" : "Will create, or add to an existing bounty pool reward for the pull request that is linked and merged to solve the issue."
+    },
+    "exclude" : [".deposit", ".bal", ".help", ".pull", ".me"]
   },
   "disabled" : {
        ".name(Discord)" : {
