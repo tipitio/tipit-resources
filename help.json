@@ -73,7 +73,8 @@
     ".pool" : {
       ".pool 1 TOKEN" : "Will create, or add to an existing bounty pool reward for the pull request that is linked and merged to solve the issue."
     },
-    "exclude" : [".deposit", ".bal", ".help", ".pull", ".me"]
+    "exclude" : [".deposit", ".bal", ".help", ".pull", ".me"],
+    "note" : "All other bot commands such as .deposit, .bal, .help, .pull, and .me should not be executed, but instead users are recommended to accomplish these actions through the tipit.io user account menu."
   },
   "disabled" : {
        ".name(Discord)" : {
