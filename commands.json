@@ -1,0 +1,77 @@
+{
+      "tip" : {
+        "languages" : {
+          "English" : [
+            "tip",
+            "send"
+          ],
+          "Spanish" : [
+            "enviar"
+          ]
+        }
+      },
+      "deposit" : {
+        "languages" : {
+          "English" : [
+            "deposit",
+            "dep"
+          ],
+          "Spanish" : [
+            "depositar"
+          ]
+        }
+      },
+      "bal" : {
+        "languages" : {
+          "English" : [
+            "bal",
+            "balance"
+          ],
+          "Spanish" : [
+            "saldo"
+          ]
+        }
+      },
+      "help" : {
+        "languages" : {
+          "English" : [
+            "help"
+          ],
+          "Spanish" : [
+            "ayuda"
+          ]
+        }
+      },
+      "pull" : {
+        "languages" : {
+          "English" : [
+            "pull",
+            "withdraw"
+          ],
+          "Spanish" : [
+            "halar",
+            "retirar"
+          ]
+        }
+      },
+      "me" : {
+        "languages" : {
+          "English" : [
+            "me"
+          ],
+          "Spanish" : [
+            "yo"
+          ]
+        }
+      },
+      "nft" : {
+        "languages" : {
+          "English" : [
+            "nft"
+          ],
+          "Spanish" : [
+            "tnf"
+          ]
+        }
+      }
+    }
