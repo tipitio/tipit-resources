@@ -3,6 +3,7 @@
         "languages" : {
           "English" : [
             "tip",
+            "@tipitbot",
             "send"
           ],
           "Spanish" : [
