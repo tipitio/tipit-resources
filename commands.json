@@ -4,6 +4,7 @@
           "English" : [
             "tip",
             "@tipitbot",
+            "@tipitd",
             "send"
           ],
           "Spanish" : [
