@@ -1,10 +1,9 @@
 {
       "tip" : {
+        "is_public" : true,
         "languages" : {
           "English" : [
             "tip",
-            "@tipitbot",
-            "@tipitd",
             "send"
           ],
           "Spanish" : [
@@ -13,6 +12,7 @@
         }
       },
       "deposit" : {
+        "is_public" : false,
         "languages" : {
           "English" : [
             "deposit",
@@ -24,6 +24,7 @@
         }
       },
       "bal" : {
+        "is_public" : false,
         "languages" : {
           "English" : [
             "bal",
@@ -35,6 +36,7 @@
         }
       },
       "help" : {
+        "is_public" : false,
         "languages" : {
           "English" : [
             "help"
@@ -45,6 +47,7 @@
         }
       },
       "pull" : {
+        "is_public" : false,
         "languages" : {
           "English" : [
             "pull",
@@ -57,6 +60,7 @@
         }
       },
       "me" : {
+        "is_public" : false,
         "languages" : {
           "English" : [
             "me"
@@ -67,6 +71,7 @@
         }
       },
       "nft" : {
+        "is_public" : true,
         "languages" : {
           "English" : [
             "nft"
