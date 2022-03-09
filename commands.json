@@ -80,5 +80,43 @@
             "tnf"
           ]
         }
+      },
+      "confirmations" : {
+          "pull_token" : {
+              "confirm" : {
+                "English" : [
+                  "yes"
+                ],
+                "Spanish" : [
+                  "si"
+                ]
+              },
+              "cancel" : {
+                "English" : [
+                  "no"
+                ],
+                "Spanish" : [
+                  "no"
+                ]
+              }  
+           },
+          "pull_nft" : {
+              "confirm" : {
+                "English" : [
+                  "yes"
+                ],
+                "Spanish" : [
+                  "si"
+                ]
+              },
+              "cancel" : {
+                "English" : [
+                  "no"
+                ],
+                "Spanish" : [
+                  "no"
+                ]
+              }  
+           }
       }
-    }
+  }
