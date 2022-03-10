@@ -82,7 +82,7 @@
         }
       },
       "yes" : {
-        "is_public" : true,
+        "is_public" : false,
         "languages" : {
           "English" :[
             "yes"
@@ -93,7 +93,7 @@
         }
       },
       "no" : {
-        "is_public" : true,
+        "is_public" : false,
         "languages" : {
           "English" :[
             "no"
