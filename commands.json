@@ -96,6 +96,7 @@
       "no" : {
         "is_public" : false,
         "command_prefix" : false,
+        "wildcard" : true,
         "languages" : {
           "English" :[
             "no"
