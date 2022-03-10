@@ -83,6 +83,7 @@
       },
       "yes" : {
         "is_public" : false,
+        "command_prefix" : false,
         "languages" : {
           "English" :[
             "yes"
@@ -94,6 +95,7 @@
       },
       "no" : {
         "is_public" : false,
+        "command_prefix" : false,
         "languages" : {
           "English" :[
             "no"
