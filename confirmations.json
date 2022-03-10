@@ -10,7 +10,8 @@
         ]
       }
     },
-    "*" : {
+    "no" : {
+      "wildcard" : true,
       "languages" : {
         "English" :[
           "no"
