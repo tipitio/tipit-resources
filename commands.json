@@ -80,30 +80,5 @@
             "tnf"
           ]
         }
-      },
-      "yes" : {
-        "is_public" : false,
-        "command_prefix" : false,
-        "languages" : {
-          "English" :[
-            "yes"
-          ],
-          "Spanish" : [
-            "si"
-          ]
-        }
-      },
-      "no" : {
-        "is_public" : false,
-        "command_prefix" : false,
-        "wildcard" : true,
-        "languages" : {
-          "English" :[
-            "no"
-          ],
-          "Spanish" : [
-            "no"
-          ]
-        }
       }
   }
