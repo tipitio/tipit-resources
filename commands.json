@@ -81,42 +81,26 @@
           ]
         }
       },
-      "confirmations" : {
-          "pull_token" : {
-              "confirm" : {
-                "English" : [
-                  "yes"
-                ],
-                "Spanish" : [
-                  "si"
-                ]
-              },
-              "cancel" : {
-                "English" : [
-                  "no"
-                ],
-                "Spanish" : [
-                  "no"
-                ]
-              }  
-           },
-          "pull_nft" : {
-              "confirm" : {
-                "English" : [
-                  "yes"
-                ],
-                "Spanish" : [
-                  "si"
-                ]
-              },
-              "cancel" : {
-                "English" : [
-                  "no"
-                ],
-                "Spanish" : [
-                  "no"
-                ]
-              }  
-           }
+      "yes" : {
+        "is_public" : true,
+        "languages" : {
+          "English" :[
+            "yes"
+          ],
+          "Spanish" : [
+            "no"
+          ]
+        }
+      },
+      "no" : {
+        "is_public" : true,
+        "languages" : {
+          "English" :[
+            "no"
+          ],
+          "Spanish" : [
+            "no"
+          ]
+        }
       }
   }
