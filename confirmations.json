@@ -2,7 +2,8 @@
   "pull" : {
     "yes" : {
       "action" : "confirm",
-      "behavior" : "bool",
+      "behavior" : "wildcard_bool",
+      "bool" : "cancel",
       "languages" : {
         "English" :[
           "yes"
