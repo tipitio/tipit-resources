@@ -1,6 +1,7 @@
 {
   "pull" : {
     "yes" : {
+      "action" : "confirm",
       "languages" : {
         "English" :[
           "yes"
@@ -12,6 +13,7 @@
     },
     "no" : {
       "wildcard" : true,
+      "action" : "cancel",
       "languages" : {
         "English" :[
           "no"
