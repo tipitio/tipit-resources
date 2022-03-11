@@ -2,6 +2,7 @@
   "pull" : {
     "yes" : {
       "action" : "confirm",
+      "counterpart" : "no",
       "languages" : {
         "English" :[
           "yes"
@@ -14,6 +15,7 @@
     "no" : {
       "wildcard" : true,
       "action" : "cancel",
+      "counterpart" : "yes",
       "languages" : {
         "English" :[
           "no"
