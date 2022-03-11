@@ -2,26 +2,13 @@
   "pull" : {
     "yes" : {
       "action" : "confirm",
-      "counterpart" : "no",
+      "behavior" : "bool",
       "languages" : {
         "English" :[
           "yes"
         ],
         "Spanish" : [
           "si"
-        ]
-      }
-    },
-    "no" : {
-      "wildcard" : true,
-      "action" : "cancel",
-      "counterpart" : "yes",
-      "languages" : {
-        "English" :[
-          "no"
-        ],
-        "Spanish" : [
-          "no"
         ]
       }
     }
