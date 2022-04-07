@@ -21,7 +21,7 @@
       ".nft" : {
         ".nft @user ASSETID" : "Sends specified user an NFT.",
         ".nft" : "Checks NFT Balance when private messaged to the bot."
-      }
+      },
       ".me" : {
         ".me" : "Bot responds with your tipit page"
       }
