@@ -19,7 +19,8 @@
         ".pull EOSaccount 1 TOKEN memo" : "Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
       },
       ".nft" : {
-        ".nft @user ASSETID" : "Sends specified user an NFT."
+        ".nft @user ASSETID" : "Sends specified user an NFT.",
+			  ".nft": "Checks NFT Balance when private messaged to the bot."
       },
       ".me" : {
         ".me" : "Bot responds with your tipit page"
@@ -50,7 +51,8 @@
         ".help" : "Command must be sent as a direct message to @tipitbot. Bot responds with the Tipit commands and usage instructions."
       },
       ".nft" : {
-        "@tipitbot .nft ASSETID" : "Sends specified user an NFT."
+        "@tipitbot .nft ASSETID" : "Sends specified user an NFT.",
+			  ".nft": "Checks NFT Balance when private messaged to the bot."
       },
       ".pull" : {
         ".pull EOSaccount 1 TOKEN memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
