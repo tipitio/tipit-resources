@@ -1,6 +1,6 @@
 {
   "version" : "1.1.0",
-  "header" : "==========================================\r\nGuía de uso general\r\n------------------------------------------\r\nTipit es Software en versión Beta: En ningún caso tipit o sus autores serán responsables por fondos perdidos, mal dirigidos o robados.  tipit es completamente TRANSPARENTE y NO PRIVADO, todas las transacciones están en la cadena de bloques EOS con una visualización completa incluyendo su memo.\r\n------------------------------------------\r\n",
+  "header" : "==========================================\r\nGuía de uso general\r\n------------------------------------------\r\nTipit es Software en versión Beta: En ningún caso tipit o sus autores serán responsables por fondos perdidos, mal dirigidos o robados.  tipit es completamente TRANSPARENTE y NO PRIVADO, todas las transacciones están en la cadena de bloques con una visualización completa incluyendo su memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
       ".enviar" : {
@@ -16,7 +16,7 @@
         ".ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
       },
       ".retirar" : {
-        ".retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
+        ".retirar TUCUENTADE 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
       },
       ".nft" : {
         ".nft @user ASSETID" : "Envía al usuario especificado un NFT.",
@@ -53,7 +53,7 @@
         ".nft" : "Comprueba el saldo de NFT cuando se envía un mensaje privado al bot."
       },
       ".retirar" : {
-        ".retirar cuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
+        ".retirar CUENTADE 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
       }
   },
   "twitch-commands" : {
@@ -71,15 +71,15 @@
         "!ayuda" : "El Bot responde con los comandos de Tipit y las instrucciones de uso."
       },
       ".retirar" : {
-        "!retirar tucuentadeEOS 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta EOS (El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta de EOS, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
+        "!retirar CUENTADE 1 TOKEN memo" : "Retira cualquier Cantidad # de cualquier token a una cuenta(El 1 es una cantidad de ejemplo).  El bot pide confirmación, verifique los datos y seleccione sí.  Nota: Tipit se retira a CUALQUIER cuenta, así que ten cuidado y asegúrate de que el nombre de tu cuenta sea correcta."
       }
   },
   "disabled" : {
       ".validar(Twitch)" : {
-         "!validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
+         "!validar cuenta valida" : "Comprueba en la blockchain si el nombre 'cuenta valida' está disponible."
       },
       ".validar(Twitter)" : {
-        ".validar cuentadeeosvalida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
+        ".validar cuentade valida" : "El comando debe ser enviado como un mensaje directo a @tipitbot. Comprueba en la blockchain si el nombre 'cuentaeosvalida' está disponible."
       },
       ".validar(Discord)" : {
         ".validar cuentaEOSvalida" : "Comprueba en la blockchain si el nombre 'cuentaEOSvalida' está disponible."
