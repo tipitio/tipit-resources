@@ -19,8 +19,7 @@
         ".pull EOSaccount 1 TOKEN memo" : "Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
       },
       ".nft" : {
-        ".nft @user ASSETID" : "Sends specified user an NFT.",
-        ".nft" : "Checks NFT Balance when private messaged to the bot."
+        ".nft @user ASSETID" : "Sends specified user an NFT."
       },
       ".me" : {
         ".me" : "Bot responds with your tipit page"
@@ -30,7 +29,11 @@
       ".tip" : {
         ".tip 1 TOKEN" : "Will send 1 TOKEN to the user you are replying to.",
         ".tip @username 1 TOKEN" : "Will send 1 TOKEN to the @username specified. NOTE: This will only work if the user has set their Telegram username."
-      }
+      },
+    ".nft" : {
+        ".nft @user ASSETID" : "Sends specified user an NFT.",
+        ".nft" : "Checks NFT Balance when private messaged to the bot."
+    }
   },
   "twitter-commands" : {
       ".tip" : {
