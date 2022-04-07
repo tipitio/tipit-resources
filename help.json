@@ -1,6 +1,6 @@
 {
-  "version" : "1.1.8",
-  "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the EOS blockchain in full view including your memo.\r\n------------------------------------------\r\n",
+  "version" : "1.1.9",
+  "header" : "==========================================\r\nGeneral Use guide\r\n------------------------------------------\r\nTipit is Beta Software: In no event shall tipit or its authors be responsible for any lost, misdirected or stolen funds.  tipit is fully TRANSPARENT and NOT PRIVATE, all transactions are on the blockchain in full view including your memo.\r\n------------------------------------------\r\n",
   "footer" : "You can get more help at https://tipit.io/help\r\n\r\n==========================================\r\n",
   "commands" : {
       ".tip" : {
@@ -16,7 +16,7 @@
         ".help" : "Bot responds with the Tipit commands and usage instructions."
       },
       ".pull" : {
-        ".pull ACCOUNT 1 TOKEN memo" : "Withdraws any number # of any token to an account (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+        ".pull ACCOUNT 1 TOKEN memo" : "Withdraws any number # of any token to an account (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY account so be careful and make sure your account name is correct."
       },
       ".nft" : {
         ".nft @user ASSETID" : "Sends specified user an NFT.",
@@ -55,7 +55,7 @@
 	".nft": "Checks NFT Balance when private messaged to the bot."
       },
       ".pull" : {
-        ".pull ACCOUNT 1 TOKEN memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an account (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+        ".pull ACCOUNT 1 TOKEN memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to an account (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY account so be careful and make sure your account name is correct."
       }
   },
   "twitch-commands" : {
@@ -72,7 +72,7 @@
         "!help" : "Responds with the location of Twitch help."
       },
       ".pull" : {
-        "!pull ACCOUNT 1 TOKEN memo" : "Withdraws any number # of any token to an EOSaccount (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY EOS account so be careful and make sure your account name is correct."
+        "!pull ACCOUNT 1 TOKEN memo" : "Withdraws any number # of any token to an account (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY account so be careful and make sure your account name is correct."
       },
       ".me" : {
         "!me" : "Bot responds with your tipit page."
