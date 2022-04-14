@@ -20,7 +20,7 @@
       },
       ".nft" : {
         ".nft @user ASSETID" : "Sends specified user an NFT you choose.",
-	".nft": "Displays your NFT Balance when private messaged to the bot."
+	".nft": "Displays your NFT Balance along with their ASSETIDs when private messaged to the bot."
       },
       ".me" : {
         ".me" : "Bot responds with your tipit page"
@@ -33,7 +33,7 @@
       },
     ".nft" : {
         ".nft @user ASSETID" : "Sends specified user an NFT you specify.",
-        ".nft" : "Displays your NFT Balance when private messaged to the bot."
+        ".nft" : "Displays your NFT Balance along with their ASSETIDs when private messaged to the bot."
     }
   },
   "twitter-commands" : {
@@ -51,7 +51,7 @@
       },
       ".nft" : {
         "@tipitbot .nft ASSETID" : "Sends specified user an NFT you choose.",
-	".nft": "Displays your NFT Balance when private messaged to the bot."
+	".nft": "Displays your NFT Balance along with their ASSETIDs when private messaged to the bot."
       },
       ".pull" : {
         ".pull ACCOUNT 1 TOKEN memo" : "Command must be sent as a direct message to @tipitbot. Withdraws any number # of any token to your account (1 in the example command).  It asks for confirmation so type yes.  Note tipit withdraws to ANY account so be careful and make sure your account name is correct."
