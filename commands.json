@@ -70,6 +70,17 @@
           ]
         }
       },
+      "mem" : {
+        "is_public" : false,
+        "languages" : {
+          "English" : [
+            "mem"
+          ],
+          "Spanish" : [
+            "mie"
+          ]
+        }
+      },
       "nft" : {
         "is_public" : true,
         "languages" : {
