@@ -38,7 +38,9 @@
   },
   "twitter-commands" : {
       ".tip" : {
-        "@tipitbot +1 TOKEN" : "Sending a tip via Twitter must be done via tweeting a reply to a tweet.  This will send 1 Token to whomever is being replied to (supports multiple)."
+        "@tipitbot +1 TOKEN" : "Sending a tip via Twitter must be done via tweeting a reply to a tweet.  This will send 1 Token to whomever is being replied to (supports multiple).",
+        ".tip +1 TOKEN" : "Simple way to send a tip in a reply, the + symbol is optional.",
+        ".tip @user +1 TOKEN" : "This allows you to tip a user in a tweet."
       },
       ".deposit"  : {
         ".deposit" : "Command must be sent as a direct message to @tipitbot. Messages you a link where they can deposit tokens into your tipit account."
@@ -51,6 +53,8 @@
       },
       ".nft" : {
         "@tipitbot .nft ASSETID" : "Sends specified user an NFT you choose.",
+        ".nft ASSETID" : "Simple way to send an nft in a reply.",
+        ".nft @user ASSETID" : "This allows you to send an NFT in a tweet.",  
 	".nft": "Displays your NFT Balance along with their ASSETIDs when private messaged to the bot."
       },
       ".pull" : {
