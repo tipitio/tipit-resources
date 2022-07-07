@@ -48,6 +48,7 @@
       },
       "pull" : {
         "is_public" : false,
+        "disabled" : true,
         "languages" : {
           "English" : [
             "pull",
