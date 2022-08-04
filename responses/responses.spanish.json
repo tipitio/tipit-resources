@@ -1,0 +1,69 @@
+{
+	"responses" : {
+		"tip" : {
+			"unsupported" : "${user.user_at},  el Token **${details.asset.symbol}** Actualmente no es compatible con tipit.",
+			"format" :  "${user.user_at}, por favor, emita el ${command_details.command_prefix + command_details.language_command} con el formato correcto : \r\n **${command_details.command_prefix + command_details.language_command} @user amount TOKEN**",
+			"tipping_self" : "${user.user_at}, no est√° permitido dar tip",
+			"private_error" : "${user.user_at}, no se puede enviar en un mensaje privado.",
+			"lacking_balance" : "${user.user_at}, no tienes fondos suficientes",
+			"zero_amount" : "${user.user_at}, no se puede dar propina con una cantidad cero.",
+			"tip_in_progress" : "${user.user_at}, espere hasta que su envÌo anterior haya terminado.",
+			"success" : "${tip_parts.from.user}, a ${tip_parts.to.user} ${tip_parts.amount} ${tip_parts.asset.symbol}. ver : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			"must_reply" : "${user.user_at}, El usuario al que est√° tratando de dar un tip no tiene un nombre de usuario.  Por favor, responda a uno de sus mensajes para avisar al usuario."
+
+
+		},
+
+
+		"mem" : {
+		    "no_memberships" : "Actualmente no tienes membresÌas."
+		},
+
+
+
+		"nft" : {
+			"format" :  "${user.user_at}, por favor, emita el ${command_details.command_prefix + command_details.language_command} con el formato correcto : \r\n **${command_details.command_prefix + command_details.language_command} @user NFTID**",
+			"nft_tipping_self" : "${user.user_at}, No est√° permitido dar tip el NFT.",
+			"nft_tip_in_progress" : "${user.user_at}, espere hasta que su transacciÛn NFT anterior haya terminado.",
+			"lacking_nft_balance" : "${user.user_at}, no tienes ese NFT.",
+			"private_error" : "${user.user_at}, no se puede enviar en un mensaje privado.",
+			"success" : "${tip_parts.from.user} le dio a ${tip_parts.to.user} un NFT. ${tip_parts.nft_hash} ver : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			"must_reply" : "${user.user_at}, El usuario al que est√° tratando de dar un NFT no tiene un nombre de usuario.  Por favor, responda a uno de sus mensajes para avisar al usuario.",
+			"multiple_collections" : "${user.user_at}, Est· intentando dar propina a un NFT que se ha encontrado en varias colecciones Seleccione el n˙mero de la colecciÛn desde la que desea enviar : ${collections_found}.",
+			"multiple_collections_tipped" : "${user.user_at}, Su envÌo NFT se est· procesando.",
+			"multiple_collections_cancelled" : "${user.user_at}, Su envÌo NFT ha sido cancelado."
+
+		},
+
+		"pull" : {
+        		"confirm" : "${user.user_at}, confirme que desea retirar ${pull_parts.amount} ${pull_parts.asset.asset_symbol_or_id} a la cuenta ${pull_parts.to_chain_account} en ${pull_parts.chain}. Escriba 'Si' para ejecutar este comando y escriba 'No' para cancelarla.",
+        		"format" : "${user.user_at}, Por favor, emita el ${command_details.command_prefix + command_details.language_command} con el formato correcto:\r\n${command_details.command_prefix + command_details.language_command} CUENTADE cantidad TOKEN o ${command_details.command_prefix + command_details.language_command} CUENTADE NFTID",
+			"lacking_balance_token" : "${user.user_at}, no tienes fondos suficientes.",
+			"lacking_balance_nft" : "${user.user_at}, no tienes el activo.",
+			"invalid_account" : "${user.user_at}, La cuenta no es v·lida",
+        		"confirmation_processing" : "${user.user_at}, su solicitud de retiro ha sido puesta en cola para su procesamiento, recibir√° un mensaje privado cuando se haya completado.",
+        		"confirmation_cancel" : "${user.user_at}, Su transacci√≥n de retiro ha sido cancelada.",
+        		"success" : "${user.user_at}, ${response.message}. Puede ver esta transacci√≥n en https://tipit.io/transaction/${(parseFloat(response.id)+1)}"
+		},
+
+		"pullnft" : {
+        		"format" : "${user.user_at}, Por favor, emita el ${command_details.command_prefix + command_details.language_command} con el formato correcto:\r\n${command_details.command_prefix + command_details.language_command} CUENTADE cantidad TOKEN o ${command_details.command_prefix + command_details.language_command} CUENTADE NFTID",
+			"lacking_balance_nft" : "${user.user_at}, no tienes el NFT.",
+			"invalid_account" : "${user.user_at}, La cuenta no es v·lida"
+		},
+
+
+
+
+		"general" : {
+			"me" : "https://tipit.io/${command_details.platform}/${user.tipit_profile}",
+      			"deposit" : "Usted puede depositar desde aqu√≠:  : https://tipit.io o a tipitaccount memor√°ndum ${command_details.platform_id};${user.user_id}",
+			"transaction_error" : "${user.user_at} Se ha producido un error en la transacci√≥n, p√≥ngase en contacto con el servicio de asistencia t√©cnica. Error : ${response.error}"
+
+
+
+		}
+
+	}
+
+}

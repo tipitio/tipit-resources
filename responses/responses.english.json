@@ -1,0 +1,66 @@
+{
+	"responses" : {
+		"tip" : {
+			"unsupported" : "${user.user_at}, the ${details.asset.symbol} token is not currently supported on tipit.",
+			"format" :  "${user.user_at}, please issue the ${command_details.command_prefix + command_details.language_command} command in the correct format : \r\n **${command_details.command_prefix + command_details.command}  @user amount TOKEN**",
+			"tipping_self" : "${user.user_at}, you are not allowed to tip yourself.",
+			"private_error" : "${user.user_at}, tips can't be done in a private message.",
+			"lacking_balance" : "${user.user_at}, You don't have enough funds",
+			"zero_amount" : "${user.user_at}, You can't tip a zero amount.",
+			"tip_in_progress" : "${user.user_at}, please wait until your previous tip has finished.",
+			"success" : "${tip_parts.from.user} to ${tip_parts.to.user} ${tip_parts.amount} ${tip_parts.asset.symbol}. See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			 "must_reply" : "${user.user_at}, please reply to one of their messages to tip that user."
+
+		},
+
+		"mem" : {
+		    "no_memberships" : "You don't currently have any memberships."
+		},
+
+		"nft" : {
+			"format" :  "${user.user_at}, please issue the ${command_details.command_prefix + command_details.language_command} command in the correct format : \r\n **${command_details.command_prefix + command_details.command}  @user NFTID**",
+			"nft_tipping_self" : "${user.user_at}, you are not allowed to tip yourself an NFT.",
+			"private_error" : "${user.user_at}, NFT tips can't be done in a private message.",
+			"nft_tip_in_progress" : "${user.user_at}, please wait until your previous NFT transaction has finished.",
+			"lacking_nft_balance" : "${user.user_at}, You don't have that NFT.",
+			"success" : "${user.user_at} gave ${tip_parts.to.user} an NFT! ${tip_parts.nft_hash} See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			 "must_reply" : "${user.user_at}, please reply to one of their messages to send an NFT that user.",
+			"multiple_collections" : "${user.user_at}, You are trying to tip an NFT which has been found in multiple collections Please select the number of the collection you wish to send from : ${collections_found}.",
+			"multiple_collections_tipped" : "${user.user_at}, Your NFT tip is processing.",
+			"multiple_collections_cancelled" : "${user.user_at}, Your NFT tip has been cancelled."
+
+
+		},
+
+		"pull" : {
+        		"confirm" : "${user.user_at}, Please confirm that you would like to withdrawl ${pull_parts.amount} ${pull_parts.asset.asset_symbol_or_id} to the ${pull_parts.to_chain_account} account on the ${pull_parts.chain} chain. Type 'Yes' to execute this transaction, or anything else to cancel it.",
+			"format" : "${user.user_at}, Please issue the ${command_details.command_prefix + command_details.language_command} command in the correct format:\r\n${command_details.command_prefix + command_details.language_command} ACCOUNT amount TOKEN or ${command_details.command_prefix + command_details.language_command} ACCOUNT NFTID",
+			"lacking_balance_token" : "${user.user_at}, You don't have enough funds.",
+			"lacking_balance_nft" : "${user.user_at}, You don't have that asset.",
+			"invalid_account" : "${user.user_at}, the account you are trying to pull to is invalid.",
+        		"confirmation_processing" : "${user.user_at}, your withdrawal request has been queued for processing, you will receive a private message when it has completed.",
+			"confirmation_cancel" : "${user.user_at}, your withdrawal transaction has been cancelled.",
+			"success" : "${user.user_at}, ${response.message}. Your transaction can be viewed at https://tipit.io/transaction/${(parseFloat(response.id)+1)}"
+		},
+
+
+		"pullnft" : {
+			"format" : "${user.user_at}, Please issue the ${command_details.command_prefix + command_details.language_command} command in the correct format:\r\n${command_details.command_prefix + command_details.language_command} ACCOUNT amount TOKEN or ${command_details.command_prefix + command_details.language_command} ACCOUNT NFTID",
+			"lacking_balance_nft" : "${user.user_at}, You don't have that NFT.",
+			"invalid_account" : "${user.user_at}, the account you are trying to pull to is invalid."
+		},
+
+
+
+		"general" : {
+			"me" : "https://tipit.io/${command_details.platform}/${user.tipit_profile}",
+      			"deposit" : "You can deposit here when you are logged in : https://tipit.io/ or you can deposit using any other wallet by using the memo ${command_details.platform_id};${user.user_id} to tipitaccount",
+			 "transaction_error" : "${user.user_at} A transaction error occurred, please contact support. Error : ${response.error}",
+			"beans" : "test"
+
+		}
+		
+
+	}
+
+}
