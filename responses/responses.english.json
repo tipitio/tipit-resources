@@ -8,7 +8,7 @@
 			"lacking_balance" : "${user.user_at}, You don't have enough funds",
 			"zero_amount" : "${user.user_at}, You can't tip a zero amount.",
 			"tip_in_progress" : "${user.user_at}, please wait until your previous tip has finished.",
-			"success" : "${tip_parts.from.user} to ${tip_parts.to.user} ${tip_parts.amount} ${tip_parts.asset.symbol}. See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			"success" : "${tip_parts.from.user} to ${tip_parts.to.user} ${tip_parts.amount} ${tip_parts.asset.symbol}. Message @tipitbot \".bal\" to list your tokens, and \".help\" for more commands. See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
 			 "must_reply" : "${user.user_at}, please reply to one of their messages to tip that user."
 
 		},
@@ -23,7 +23,7 @@
 			"private_error" : "${user.user_at}, NFT tips can't be done in a private message.",
 			"nft_tip_in_progress" : "${user.user_at}, please wait until your previous NFT transaction has finished.",
 			"lacking_nft_balance" : "${user.user_at}, You don't have that NFT.",
-			"success" : "${user.user_at} gave ${tip_parts.to.user} an NFT! ${tip_parts.nft_hash} See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			"success" : "${user.user_at} gave ${tip_parts.to.user} an NFT! ${tip_parts.nft_hash} Message @tipitbot \".nft\" to list your NFTs, and \".help\" for more commands. See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
 			 "must_reply" : "${user.user_at}, please reply to one of their messages to send an NFT that user.",
 			"multiple_collections" : "${user.user_at}, You are trying to tip an NFT which has been found in multiple collections Please select the number of the collection you wish to send from : ${collections_found}.",
 			"multiple_collections_tipped" : "${user.user_at}, Your NFT tip is processing.",
