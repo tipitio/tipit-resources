@@ -8,7 +8,7 @@
 			"lacking_balance" : "${user.user_at}, You don't have enough funds",
 			"zero_amount" : "${user.user_at}, You can't tip a zero amount.",
 			"tip_in_progress" : "${user.user_at}, please wait until your previous tip has finished.",
-			"success" : "${tip_parts.from.user} to ${tip_parts.to.user} ${tip_parts.amount} ${tip_parts.asset.symbol}. Message @tipitbot \".bal\" to list your tokens, and \".help\" for more commands. See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
+			"success" : "${tip_parts.from.user} to ${tip_parts.to.user} ${tip_parts.amount} ${tip_parts.asset.symbol}. Message @tipitbot \".help\" for commands. See it : https://tipit.io/transaction/${(parseFloat(response.id)+1)}",
 			 "must_reply" : "${user.user_at}, please reply to one of their messages to tip that user."
 
 		},
